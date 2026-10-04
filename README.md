@@ -8,7 +8,7 @@ The plugin shows the setup before it acts. A connected tool sends the message. A
 
 Read [how it works](AutomateNotificationToTeams-HowItWorks-2026-10-03.md) for the complete process.
 
-The skill is installed locally. The plugin package is ready for installation. Installation through the plugin manager has not been verified.
+The canonical source is [this GitHub repository](https://github.com/RachaelQuisel/automate-notification-to-teams). Local installations and ZIP files are copies of this source. Installation through the plugin manager has not been verified.
 
 ## License
 
