@@ -1,0 +1,20 @@
+{
+  "name": "automate-notification-to-teams",
+  "version": "0.2.0",
+  "description": "Set up Microsoft Teams notifications through a few questions.",
+  "skills": "./skills/",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "interface": {
+    "displayName": "Automate Notification to Teams",
+    "shortDescription": "Set up Teams notifications through a few questions",
+    "longDescription": "Choose one message or an ongoing automation. Answer a few questions about the destination, event or schedule, message, and optional link. The plugin guides setup in a connected tool. It checks message delivery and record links when tested.",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $automate-notification-to-teams to ask me a few questions and help me set up my Teams notification.",
+    "developerName": "Rachael Quisel",
+    "logo": "./assets/automate-notification-to-teams.png",
+    "composerIcon": "./assets/automate-notification-to-teams.png"
+  }
+}

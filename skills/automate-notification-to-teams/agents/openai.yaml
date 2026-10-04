@@ -1,0 +1,6 @@
+interface:
+  display_name: "Automate Notification to Teams"
+  short_description: "Set up Teams notifications through a few questions"
+  icon_small: "./assets/automate-notification-to-teams.png"
+  icon_large: "./assets/automate-notification-to-teams.png"
+  default_prompt: "Use $automate-notification-to-teams to ask me a few questions and help me set up my Teams notification."
