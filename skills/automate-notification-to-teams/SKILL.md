@@ -5,6 +5,9 @@ description: Interactively set up Microsoft Teams notifications. Ask about the d
 
 # Automate Notification to Teams
 
+Read [the conversation and writing rules](references/conversation-and-writing.md) before responding. Apply them to all user-facing text.
+
+
 Help the user choose when Microsoft Teams should receive a notification. Ask a few questions before taking action. A request to run this skill without other details starts setup. It does not send a previous message or replay an earlier test.
 
 Apply [the Voice Align writing rules](references/plain-english.md) to every question, notification, explanation, error message, and report. Keep exact product names, field names, statuses, and commands.

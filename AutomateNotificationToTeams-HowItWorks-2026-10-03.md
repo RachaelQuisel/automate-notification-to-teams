@@ -1,34 +1,28 @@
 ## Trigger
 
-- You run `$automate-notification-to-teams`.
-- For an ongoing automation, future notifications start from the event or schedule you choose. They begin after the connected tool is configured and activated.
+- The user starts Automate Notification to Teams. After activation, a chosen event or schedule starts future notifications in the connected tool.
 
 ## Inputs
 
-- You choose one message or an ongoing automation.
-- You provide the Microsoft Teams team and channel, or the person or group chat.
-- You provide the message.
-- For an automation, you choose an event and its source app, or a schedule and time zone.
-- You identify the item that a link should open, when a link is needed.
-- You choose a draft or live setup.
-- The plugin uses available connections to Teams and the source app.
+- The user chooses one notification or an ongoing automation.
+- The Teams team and channel, person, or group chat identify the destination.
+- The notification text and optional linked item define the message.
+- For automation, the source event or schedule with time zone defines when it runs.
+- The selected draft or live mode determines whether it sends or activates.
 
 ## What happens
 
-1. The plugin asks one short question at a time. It waits for your answer. It skips details you have already supplied for this setup.
-2. It checks which connected tool can send the notification. For an automation, it also checks which tool can watch the chosen event or run the schedule. The plugin does not watch events by itself.
-3. If a required connection is missing, it explains the setup gap. It can prepare the message. It cannot report the automation as active.
-4. It finds the selected Teams destination. If you want a link, it finds the intended item. If several items match, it asks you to choose one. If none match, it explains what could not be found.
-5. It shows the destination, message, and link. For an automation, it also shows the event or schedule and the tool that will run it. If you have not chosen a draft or live setup, it asks you to choose.
-6. For a draft, it saves the message or automation without sending. For a live message, it sends once through Teams. For live automation setup, it configures and activates the connected tool.
-7. For a live test, it runs the chosen test once. It states whether the test used a real event or replayed the automation actions.
-8. After a send, it checks the matching message in Teams. If there is a record link, it clicks that link. It checks that the intended item opens.
-9. If a send returns an uncertain result, it checks for the message before retrying. If a step fails, it reports the missing result.
+1. The plugin asks one missing question at a time. It waits for answers and remembers supplied choices.
+2. It checks the available Teams connection and, for automation, the tool that can run the event or schedule. Missing access leaves the setup unconfigured. It can still prepare the message.
+3. It finds the exact destination and optional linked item. If several items match, it asks which one to use. It reports a missing item rather than substituting another.
+4. It shows the destination, text, link, and automation trigger when relevant. It asks for draft or live mode only when that choice has not been supplied.
+5. For a draft, it saves without sending or activating. For a live message, it sends once. For a live automation, it configures, activates, and reads back the setup.
+6. For a requested test, it runs the chosen test once. It states whether the test used the real trigger or replayed the actions.
+7. It finds the delivered Teams message. It clicks a requested record link and checks the item it opens. After an uncertain send, it searches before retrying.
+8. It reports the verified checkpoints and missing results. A successful send does not prove grant approval, payment, or email receipt.
 
 ## Outputs
 
-- For one message, the selected Teams channel or chat receives the notification when the send succeeds.
-- For a draft, the plugin reports where the unsent message or inactive automation is saved.
-- For an activated automation, the chosen tool sends future notifications when the chosen event occurs or the scheduled time arrives.
-- The plugin reports the checkpoints it verified. It distinguishes a saved draft, an active automation, an accepted send, a visible Teams message, and a working record link.
-- When requested, it saves screenshots and a report of the test.
+- An unsent draft or inactive automation in the selected tool, when draft mode is chosen.
+- A Teams notification or active automation when the live action succeeds.
+- Delivery and link verification results, with a report or screenshots when requested.
