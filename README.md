@@ -8,7 +8,23 @@ The plugin shows the setup before it acts. A connected tool sends the message. A
 
 Read [how it works](AutomateNotificationToTeams-HowItWorks-2026-10-03.md) for the complete process.
 
-The canonical source is [this GitHub repository](https://github.com/RachaelQuisel/automate-notification-to-teams). Local installations and ZIP files are copies of this source. Installation through the plugin manager has not been verified.
+## Install
+
+This repository is the Codex marketplace for the plugin. The catalog is [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json). Install the plugin by name:
+
+```shell
+codex plugin marketplace add RachaelQuisel/automate-notification-to-teams
+codex plugin add automate-notification-to-teams@automate-notification-to-teams
+```
+
+From a local checkout of this repository, add that directory as the marketplace, then install the same plugin:
+
+```shell
+codex plugin marketplace add .
+codex plugin add automate-notification-to-teams@automate-notification-to-teams
+```
+
+The canonical source is [this GitHub repository](https://github.com/RachaelQuisel/automate-notification-to-teams). Local installations and ZIP files are copies of this source.
 
 ## License
 
