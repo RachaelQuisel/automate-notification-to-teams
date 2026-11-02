@@ -1,9 +1,23 @@
 ---
 name: automate-notification-to-teams
+version: 2.0.4
 description: Interactively set up Microsoft Teams notifications. Ask about the destination, message, trigger, and optional record link. Send one message or configure an ongoing automation in a connected tool. Verify delivery and record links.
 ---
 
 # Automate Notification to Teams
+
+## Purpose in plain English
+
+This skill helps you set up a Microsoft Teams notification after confirming its destination, message, and starting event.
+
+## How to explain the result
+
+For a client-facing explanation, use ordinary words and the requested format. Explain unfamiliar abbreviations. Name what each number counts and explain its practical meaning. Keep internal identifiers out of the explanation. Keep necessary technical details in the working steps and technical references.
+
+## Following the process
+
+Use the process below. Preserve its conditions, commands, checks, and approval rules. Use information the user already supplied. Follow the existing questions or stopping rules when required information is missing.
+
 
 Read [the conversation and writing rules](references/conversation-and-writing.md) before responding. Apply them to all user-facing text.
 

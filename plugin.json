@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "description": "Set up Microsoft Teams notifications through a few questions.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "composerIcon": "./assets/automate-notification-to-teams.png",
+        "defaultPrompt": "Use $automate-notification-to-teams to ask me a few questions and help me set up my Teams notification.",
+        "developerName": "Rachael Quisel",
+        "displayName": "Automate Notification to Teams",
+        "logo": "./assets/automate-notification-to-teams.png",
+        "longDescription": "Choose one message or an ongoing automation. Answer a few questions about the destination, event or schedule, message, and optional link. The plugin guides setup in a connected tool. It checks message delivery and record links when tested.",
+        "shortDescription": "Set up Teams notifications"
+      }
+    }
+  },
+  "license": "MIT",
+  "name": "automate-notification-to-teams",
+  "version": "2.0.4"
+}

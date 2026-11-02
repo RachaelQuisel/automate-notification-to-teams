@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "repository": "RachaelQuisel/automate-notification-to-teams",
+  "packages": [
+    {
+      "name": "automate-notification-to-teams",
+      "root": ".",
+      "version": "2.0.4",
+      "manifests": [
+        "plugin.json",
+        ".codex-plugin/plugin.json"
+      ],
+      "skills": [
+        "skills/automate-notification-to-teams/SKILL.md"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "path": "skills/automate-notification-to-teams/SKILL.md",
+      "version": "2.0.4",
+      "sha256": "5ad5fc4c3f46c4872d2ec0c4b272c02204f3104e0b649744cdb23a7fe608ad70",
+      "source": "skills/automate-notification-to-teams/SKILL.md",
+      "guide": "skills/automate-notification-to-teams/README.md"
+    }
+  ],
+  "copies": []
+}
