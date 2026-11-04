@@ -1,6 +1,6 @@
 ---
 name: automate-notification-to-teams
-version: 2.0.4
+version: 2.0.5
 description: Interactively set up Microsoft Teams notifications. Ask about the destination, message, trigger, and optional record link. Send one message or configure an ongoing automation in a connected tool. Verify delivery and record links.
 ---
 

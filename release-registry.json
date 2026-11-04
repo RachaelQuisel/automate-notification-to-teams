@@ -5,7 +5,7 @@
     {
       "name": "automate-notification-to-teams",
       "root": ".",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "manifests": [
         "plugin.json",
         ".codex-plugin/plugin.json"
@@ -18,8 +18,8 @@
   "skills": [
     {
       "path": "skills/automate-notification-to-teams/SKILL.md",
-      "version": "2.0.4",
-      "sha256": "5ad5fc4c3f46c4872d2ec0c4b272c02204f3104e0b649744cdb23a7fe608ad70",
+      "version": "2.0.5",
+      "sha256": "2c9706b6daa54add147f38c729ba29547c3562be29249843d3a8215a530912fd",
       "source": "skills/automate-notification-to-teams/SKILL.md",
       "guide": "skills/automate-notification-to-teams/README.md"
     }
