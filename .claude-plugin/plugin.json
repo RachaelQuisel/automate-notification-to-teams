@@ -1,0 +1,12 @@
+{
+  "name": "automate-notification-to-teams",
+  "displayName": "Automate Notification to Teams",
+  "version": "2.0.5",
+  "description": "Set up Microsoft Teams notifications through a few questions.",
+  "author": {
+    "name": "Rachael Quisel"
+  },
+  "repository": "https://github.com/RachaelQuisel/automate-notification-to-teams",
+  "license": "MIT",
+  "icon": "./assets/automate-notification-to-teams.png"
+}

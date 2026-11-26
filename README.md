@@ -24,6 +24,17 @@ codex plugin marketplace add .
 codex plugin add automate-notification-to-teams@automate-notification-to-teams
 ```
 
+### Claude Code
+
+This repository is also a Claude Code marketplace. The catalog is [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). Install the plugin by name:
+
+```shell
+claude plugin marketplace add RachaelQuisel/automate-notification-to-teams
+claude plugin install automate-notification-to-teams@automate-notification-to-teams
+```
+
+In Claude Code, run `/automate-notification-to-teams:automate-notification-to-teams` to begin setup. The Claude package passes `claude plugin validate` and installs from a local copy of this repository. The setup conversation has not yet been tested in Claude.
+
 The canonical source is [this GitHub repository](https://github.com/RachaelQuisel/automate-notification-to-teams). Local installations and ZIP files are copies of this source.
 
 ## License

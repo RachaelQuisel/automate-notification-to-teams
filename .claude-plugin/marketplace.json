@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "automate-notification-to-teams",
+  "description": "Set up Microsoft Teams notifications through a few questions.",
+  "owner": {
+    "name": "Rachael Quisel"
+  },
+  "plugins": [
+    {
+      "name": "automate-notification-to-teams",
+      "displayName": "Automate Notification to Teams",
+      "version": "2.0.5",
+      "description": "Set up Microsoft Teams notifications through a few questions.",
+      "author": {
+        "name": "Rachael Quisel"
+      },
+      "repository": "https://github.com/RachaelQuisel/automate-notification-to-teams",
+      "source": "./"
+    }
+  ]
+}
