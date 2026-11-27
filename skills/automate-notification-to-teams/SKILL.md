@@ -1,6 +1,6 @@
 ---
 name: automate-notification-to-teams
-version: 2.0.5
+version: 2.0.6
 description: Interactively set up Microsoft Teams notifications. Ask about the destination, message, trigger, and optional record link. Send one message or configure an ongoing automation in a connected tool. Verify delivery and record links.
 ---
 
@@ -44,7 +44,7 @@ Reuse answers from this setup. Do not select the grant workflow from earlier con
 
 ## Explain the setup
 
-Tell the user which connected tool can perform the requested work. Explain where the automatic notification will run. The plugin provides instructions for Codex. It does not include a service that watches events by itself.
+Tell the user which connected tool can perform the requested work. Explain where the automatic notification will run. The plugin provides instructions for the assistant you are using. It does not include a service that watches events by itself.
 
 For a one-time message, use an available Teams connection or the authorized signed-in Teams browser.
 
